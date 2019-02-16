@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./images/countimg.png "Count plot"
 [image2]: ./images/signs.png "random signs"
-[image3]: ./images/5newimg "New images"
+[image3]: ./images/5newimg.png "New images"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
@@ -96,17 +96,7 @@ My final model results were:
 * validation set accuracy of 95%
 * test set accuracy of 94%
 
-If an iterative approach was chosen:
-* What was the first architecture that was tried and why was it chosen?
-* What were some problems with the initial architecture?
-* How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
-* Which parameters were tuned? How were they adjusted and why?
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
-
-If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
+My first approach was test the same Lenet from the lesson, but the accuracy was not good enough on validation (0.871). Then, I tried adding/removing some dropout layers with different combinations of EPOCH and dropout. So, I achieved an accuracy about 95% on validation set.
  
 
 ### Test a Model on New Images
