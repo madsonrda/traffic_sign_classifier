@@ -168,15 +168,6 @@ For the fourth image, the model is quite sure that this is a Speed limit (50km/h
 | 0	      			| Speed limit (100km/h)			 				|
 | 0				    | 10,No passing for vehicles over 3.5 metric tons      							|
 
-For the fourth image, the model is quite sure that this is a Speed limit (50km/h) sign (probability of .99), and the image does contain a Speed limit (50km/h) sign.  The top five soft max probabilities were
-
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .99         			| Speed limit (50km/h)   									| 
-| 0     				| Speed limit (30km/h) 										|
-| 0					| Speed limit (80km/h)								|
-| 0	      			| Speed limit (100km/h)			 				|
-| 0				    | 10,No passing for vehicles over 3.5 metric tons      							|
 
 For the fith image, the model is sure that this is a Stop sign (probability of 1.0), and the image does contain a Stop sign.  The top five soft max probabilities were
 
